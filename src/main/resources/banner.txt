@@ -1,0 +1,27 @@
+${AnsiColor.BRIGHT_CYAN}====================================================================================================================================
+${AnsiColor.BRIGHT_GREEN}
+${AnsiColor.BRIGHT_GREEN}    ____    .-------. .-------.   .---.    ${AnsiColor.BRIGHT_CYAN}.-./`) ${AnsiColor.BRIGHT_GREEN}    _______      ____   ,---------. ${AnsiColor.DEFAULT}.-./`)${AnsiColor.BRIGHT_GREEN}     ,-----.    ,---.   .--.   .-'''-.
+${AnsiColor.BRIGHT_GREEN}  .'  __ `. \ ${AnsiColor.BRIGHT_MAGENTA} _(`)_ ${AnsiColor.BRIGHT_GREEN}\\ ${AnsiColor.BRIGHT_RED} _(`)_ ${AnsiColor.BRIGHT_GREEN}\  | ,_|    ${AnsiColor.BRIGHT_CYAN}\ .-.')${AnsiColor.BRIGHT_GREEN}   /   __  \   .'  __ `.\          \${AnsiColor.DEFAULT}\ .-.')${AnsiColor.BRIGHT_GREEN}  .'${AnsiColor.BRIGHT_MAGENTA}  .-,  ${AnsiColor.BRIGHT_GREEN}'.  |    \  |  |  / _     \
+${AnsiColor.BRIGHT_GREEN} /   '  \  \| ${AnsiColor.BRIGHT_MAGENTA}(_ o._)${AnsiColor.BRIGHT_GREEN}|| ${AnsiColor.BRIGHT_RED}(_ o._)${AnsiColor.BRIGHT_GREEN}|${AnsiColor.BRIGHT_YELLOW},-./  ) ${AnsiColor.BRIGHT_GREEN}  ${AnsiColor.BRIGHT_CYAN} / `-' \${AnsiColor.BRIGHT_GREEN}  | ,_/  \__) /   '  \  \`--.  ,---'${AnsiColor.DEFAULT}/ `-' \${AnsiColor.BRIGHT_GREEN} / ${AnsiColor.BRIGHT_MAGENTA},-.|  \ _ ${AnsiColor.BRIGHT_GREEN}\ |  ,  \ |  | ${AnsiColor.BLUE}(`' )${AnsiColor.BRIGHT_GREEN}/`--'
+${AnsiColor.BRIGHT_GREEN} |___|  /  || ${AnsiColor.BRIGHT_MAGENTA} (_,_) ${AnsiColor.BRIGHT_GREEN}/| ${AnsiColor.BRIGHT_RED} (_,_) ${AnsiColor.BRIGHT_GREEN}/${AnsiColor.BRIGHT_YELLOW}\  '_ '`) ${AnsiColor.BRIGHT_GREEN} ${AnsiColor.BRIGHT_CYAN} `-'`"`${AnsiColor.BRIGHT_GREEN}${AnsiColor.BRIGHT_YELLOW},-./  ) ${AnsiColor.BRIGHT_GREEN}      |___|  /  |   |   \    ${AnsiColor.DEFAULT}`-'`"`${AnsiColor.BRIGHT_GREEN};  ${AnsiColor.BRIGHT_MAGENTA}\  '_ /  | ${AnsiColor.BRIGHT_GREEN}:|  |\_ \|  |${AnsiColor.BLUE}(_ o _)${AnsiColor.BRIGHT_GREEN}.
+${AnsiColor.BRIGHT_GREEN}    _.-`   ||   '-.-' |   '-.-'  ${AnsiColor.BRIGHT_YELLOW}> (_)  ) ${AnsiColor.BRIGHT_GREEN}  .---. ${AnsiColor.BRIGHT_YELLOW}\  '_ '`)${AnsiColor.BRIGHT_GREEN}        _.-`   |   :_ _:    .---. |  ${AnsiColor.BRIGHT_MAGENTA}_`,/ \ _/  ${AnsiColor.BRIGHT_GREEN}||  ${AnsiColor.BRIGHT_YELLOW}_( )_${AnsiColor.BRIGHT_GREEN}\  | ${AnsiColor.BLUE}(_,_)${AnsiColor.BRIGHT_GREEN}. '.
+${AnsiColor.BRIGHT_GREEN} .'${AnsiColor.BRIGHT_YELLOW}   _   ${AnsiColor.BRIGHT_GREEN} ||   |     |   |     ${AnsiColor.BRIGHT_YELLOW}(  .  .-' ${AnsiColor.BRIGHT_GREEN}  |   |  ${AnsiColor.BRIGHT_YELLOW}> (_)  ) ${AnsiColor.BRIGHT_GREEN} __ .'  ${AnsiColor.BRIGHT_RED} _  ${AnsiColor.BRIGHT_GREEN}  |   ${AnsiColor.BRIGHT_YELLOW}(_I_)${AnsiColor.BRIGHT_GREEN}    |   | : ${AnsiColor.BRIGHT_MAGENTA}(  '\_/ \   ${AnsiColor.BRIGHT_GREEN};| ${AnsiColor.BRIGHT_YELLOW}(_ o _)${AnsiColor.BRIGHT_GREEN}  |.---.  \  :
+${AnsiColor.BRIGHT_GREEN} | ${AnsiColor.BRIGHT_YELLOW} _( )_ ${AnsiColor.BRIGHT_GREEN} ||   |     |   |      ${AnsiColor.BRIGHT_YELLOW}`-'`-'${AnsiColor.BRIGHT_GREEN}|___ |   | ${AnsiColor.BRIGHT_YELLOW}(  .  .-'${AnsiColor.BRIGHT_GREEN}_/  )|  ${AnsiColor.BRIGHT_RED}_( )_ ${AnsiColor.BRIGHT_GREEN} |  ${AnsiColor.BRIGHT_YELLOW}(_(=)_)${AnsiColor.BRIGHT_GREEN}   |   |  \ ${AnsiColor.BRIGHT_MAGENTA}`"/  \  ) ${AnsiColor.BRIGHT_GREEN}/ |  ${AnsiColor.BRIGHT_YELLOW}(_,_)${AnsiColor.BRIGHT_GREEN}\  |\    `-'  |
+${AnsiColor.BRIGHT_GREEN} \ ${AnsiColor.BRIGHT_YELLOW}(_ o _)${AnsiColor.BRIGHT_GREEN} //   )     /   )       |        \|   |  ${AnsiColor.BRIGHT_YELLOW}`-'`-' ${AnsiColor.BRIGHT_GREEN}    / \ ${AnsiColor.BRIGHT_RED}(_ o _) ${AnsiColor.BRIGHT_GREEN}/   ${AnsiColor.BRIGHT_YELLOW}(_I_) ${AnsiColor.BRIGHT_GREEN}   |   |   '. ${AnsiColor.BRIGHT_MAGENTA}\_/``"${AnsiColor.BRIGHT_GREEN}.'  |  |    |  | \       /
+${AnsiColor.BRIGHT_GREEN}  '.${AnsiColor.BRIGHT_YELLOW}(_,_)${AnsiColor.BRIGHT_GREEN}.' `---'     `---'       `--------`'---'    `._____.'   '.${AnsiColor.BRIGHT_RED}(_,_)${AnsiColor.BRIGHT_GREEN}.'    '---'    '---'     '-----'    '--'    '--'  `-...-'
+${AnsiColor.BRIGHT_CYAN}====================================================================================================================================
+
+${AnsiColor.BRIGHT_GREEN}================================
+${AnsiColor.BRIGHT_GREEN}=========${AnsiColor.BRIGHT_YELLOW}     Tech     ${AnsiColor.BRIGHT_GREEN}=========
+${AnsiColor.BRIGHT_GREEN}================================
+${AnsiColor.BRIGHT_GREEN}::${AnsiColor.BRIGHT_MAGENTA}  Running Spring Boot ${spring-boot.version} ${AnsiColor.BRIGHT_GREEN}::
+${AnsiColor.BRIGHT_GREEN}::${AnsiColor.BLUE}     https://spring.io      ${AnsiColor.BRIGHT_GREEN}::
+${AnsiColor.BRIGHT_GREEN}================================
+
+${AnsiColor.BRIGHT_GREEN}================================
+${AnsiColor.BRIGHT_GREEN}=========${AnsiColor.BRIGHT_YELLOW}    Authors   ${AnsiColor.BRIGHT_GREEN}=========
+${AnsiColor.BRIGHT_GREEN}================================
+${AnsiColor.BRIGHT_GREEN}::${AnsiColor.BRIGHT_MAGENTA}          Israiloff         ${AnsiColor.BRIGHT_GREEN}::
+${AnsiColor.BRIGHT_GREEN}================================
+${AnsiColor.BRIGHT_GREEN}::${AnsiColor.BLUE}  https://www.anorbank.uz   ${AnsiColor.BRIGHT_GREEN}::
+${AnsiColor.BRIGHT_GREEN}================================${AnsiColor.DEFAULT}

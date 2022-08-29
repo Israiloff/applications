@@ -1,0 +1,19 @@
+server:
+  port: 10011
+  address: localhost
+spring:
+  application:
+    name: applications
+  cloud:
+    consul:
+      discovery:
+        instanceId: ${spring.application.name}:${random.value}
+      config:
+        import-check:
+          enabled: false
+  datasource:
+    url: r2dbc:h2:mem:///applications_db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: r2dbc
+    password:
+  liquibase:
+    change-log: classpath:db/changelog/master.xml

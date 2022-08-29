@@ -1,0 +1,40 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+		http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+		http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+
+    <changeSet id="202208291046" author="israiloff">
+
+        <createTable tableName="application" remarks="Заявка">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="process" type="varchar(72)" remarks="Тип запрошенного процесса">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ext_id" type="varchar(72)" remarks="Внешний номер заявки">
+                <constraints nullable="false" unique="true" uniqueConstraintName="ux_application__ext_id"/>
+            </column>
+            <column name="status" type="varchar(255)" remarks="Статус запроса">
+                <constraints nullable="false"/>
+            </column>
+            <column name="date" type="${datetimeType}" remarks="Время создания заявки">
+                <constraints nullable="false"/>
+            </column>
+            <column name="agent" type="varchar(72)" remarks="Уникальный ид агента">
+                <constraints nullable="false"/>
+            </column>
+            <column name="request_id" type="bigint" remarks="Уникальный ид сохраненного тела входного запроса">
+                <constraints nullable="true" unique="true" uniqueConstraintName="ux_application__request_id"/>
+            </column>
+        </createTable>
+
+        <dropDefaultValue tableName="application" columnName="date" columnDataType="${datetimeType}"/>
+
+    </changeSet>
+</databaseChangeLog>
