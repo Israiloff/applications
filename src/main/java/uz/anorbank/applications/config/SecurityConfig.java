@@ -25,12 +25,11 @@ public class SecurityConfig {
                         pathMatchers("/app/**", "/i18n/**", "/content/**", "/swagger-ui/**", "/test/**"),
                         pathMatchers(HttpMethod.OPTIONS, "/**"))))
                 .csrf().disable()
-                .authorizeExchange()
-                .pathMatchers("/api/**").authenticated()
-                .pathMatchers("/management/health").permitAll()
-                .pathMatchers("/management/health/**").permitAll()
-                .pathMatchers("/management/info").permitAll()
-                .pathMatchers("/management/prometheus").permitAll()
+                .authorizeExchange().anyExchange().permitAll()
+//                .authorizeExchange()
+//                .pathMatchers("/api/**").authenticated()
+//                .pathMatchers("/swagger-ui/**").permitAll()
+//                .pathMatchers("/management/**").permitAll()
                 .and()
                 .build();
     }

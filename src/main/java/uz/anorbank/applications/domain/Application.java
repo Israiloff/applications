@@ -3,6 +3,7 @@ package uz.anorbank.applications.domain;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.relational.core.mapping.Table;
 import uz.anorbank.applications.enumration.ApplicationStatus;
 
 import javax.validation.constraints.NotNull;
@@ -10,6 +11,7 @@ import javax.validation.constraints.Size;
 import java.time.Instant;
 
 @Data
+@Table("application")
 public class Application {
 
     @Id
