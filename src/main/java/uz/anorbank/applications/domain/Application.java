@@ -27,12 +27,12 @@ public class Application {
     private String process;
 
     /**
-     * Внешний номер заявки
+     * Уникальный ид запроса
      */
     @NotNull(message = "must not be null")
     @Size(max = 72)
-    @Column("ext_id")
-    private String extId;
+    @Column("system_id")
+    private String systemId;
 
     /**
      * Статус запроса
@@ -55,10 +55,4 @@ public class Application {
     @Size(max = 72)
     @Column("agent")
     private String agent;
-
-    /**
-     * Уникальный ид сохраненного тела входного запроса
-     */
-    @Column("request_id")
-    private Long requestId;
 }

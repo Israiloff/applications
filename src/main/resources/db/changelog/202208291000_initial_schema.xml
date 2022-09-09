@@ -13,8 +13,8 @@
             <column name="process" type="varchar(72)" remarks="Тип запрошенного процесса">
                 <constraints nullable="false"/>
             </column>
-            <column name="ext_id" type="varchar(72)" remarks="Внешний номер заявки">
-                <constraints nullable="false" unique="true" uniqueConstraintName="ux_application__ext_id"/>
+            <column name="system_id" type="varchar(72)" remarks="Уникальный ид запроса">
+                <constraints nullable="false" unique="true" uniqueConstraintName="ux_application__system_id"/>
             </column>
             <column name="status" type="varchar(20)" remarks="Статус запроса">
                 <constraints nullable="false"/>
@@ -24,9 +24,6 @@
             </column>
             <column name="agent" type="varchar(72)" remarks="Уникальный ид агента">
                 <constraints nullable="false"/>
-            </column>
-            <column name="request_id" type="bigint" remarks="Уникальный ид сохраненного тела входного запроса">
-                <constraints nullable="true" unique="true" uniqueConstraintName="ux_application__request_id"/>
             </column>
         </createTable>
 

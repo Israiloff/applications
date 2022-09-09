@@ -25,12 +25,12 @@ public class ApplicationDto {
     private String process;
 
     /**
-     * Application's external id (Processing ID)
+     * Application's system unique id
      */
-    @ApiModelProperty("Application's external id (Processing ID)")
+    @ApiModelProperty("Application's system unique id")
     @NotNull(message = "must not be null")
     @Size(max = 72)
-    private String extId;
+    private String systemId;
 
     /**
      * Request Status
@@ -51,10 +51,4 @@ public class ApplicationDto {
      */
     @ApiModelProperty("Unique ID of requested Agent")
     private String agent;
-
-    /**
-     * Unique ID of request given by caller
-     */
-    @ApiModelProperty("Unique ID of request given by caller")
-    private Long requestId;
 }
